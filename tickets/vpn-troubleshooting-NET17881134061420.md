@@ -15,9 +15,11 @@ A remote Marketing employee reported that their corporate VPN had disconnected a
 
 ## Troubleshooting Performed
 
-### 1. Reviewed the Ticket
+### 1. Review the Incident
 
-Reviewed the reported symptoms, user's remote-work status, and business impact to determine the appropriate troubleshooting approach.
+The ticket indicated that the user was working remotely, had lost VPN connectivity, and could no longer access internal resources.
+
+![Initial VPN Ticket](../images/NET17881134061420_01_Ticket_Initial_State.png)
 
 ### 2. Established Remote Support
 
