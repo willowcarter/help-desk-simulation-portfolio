@@ -38,6 +38,7 @@ The DNS resolver cache was flushed using:
 ![DNS Cache Flushed](../images/NET17881134061420_04_DNS_Cache_Flushed.png)
 
 The command completed successfully.
+
 ### 4. Restored VPN Connectivity
 
 After completing the network troubleshooting steps, I reconnected the workstation to the corporate VPN.
@@ -84,7 +85,3 @@ In a production support environment, a user's password should never be shared th
 If authentication is required during remote support, I would have the user enter their own credentials directly into the appropriate authentication prompt rather than asking them to disclose their password.
 
 **Security takeaway:** I can troubleshoot the problem without ever needing to know the user's password.
-
-## Evidence
-
-Screenshots documenting the troubleshooting process are stored in the repository's `images` directory.
