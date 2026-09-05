@@ -64,11 +64,17 @@ VPN connectivity was successfully restored and the user was able to resume acces
 - Ticket documentation
 - Security awareness
 
-## Security Observation
+### Security Observation
 
 The simulated workflow included a request for the user's workstation password through company chat.
 
-In a production support environment, I would not request, receive, or document a user's password. Approved authentication, administrative access, remote-support, or password-reset procedures should be used instead.
+> **When this was suggested, my eyebrows hit my hairline. Alarm bells.** 🚨
+
+In a production support environment, a user's password should never be shared through company chat, email, tickets, or other communication channels.
+
+If authentication is required during remote support, I would have the user enter their own credentials directly into the appropriate authentication prompt rather than asking them to disclose their password.
+
+**Security takeaway:** I can troubleshoot the problem without ever needing to know the user's password.
 
 ## Evidence
 
