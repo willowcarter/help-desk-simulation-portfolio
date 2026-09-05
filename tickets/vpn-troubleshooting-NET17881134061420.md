@@ -74,7 +74,7 @@ VPN connectivity was successfully restored, and the user was able to resume acce
 - Ticket documentation
 - Security awareness
 
-### Security Observation
+## Security Observation
 
 The simulated workflow included a request for the user's workstation password through company chat.
 
