@@ -29,19 +29,26 @@ Connected to the user's workstation using the simulator's remote-support functio
 
 Opened Terminal and performed network troubleshooting.
 
+![Terminal Opened](../images/NET17881134061420_03_Terminal_Opened.png)
+
 The DNS resolver cache was flushed using:
 
 `ipconfig /flushdns`
 
-The command completed successfully.
+![DNS Cache Flushed](../images/NET17881134061420_04_DNS_Cache_Flushed.png)
 
+The command completed successfully.
 ### 4. Restored VPN Connectivity
 
-[We'll fill this section in based on the remaining simulator steps.]
+After completing the network troubleshooting steps, I reconnected the workstation to the corporate VPN.
+
+![VPN Connection Verified](../images/NET17881134061420_07_VPN_Connection_Verified.png)
+
+The VPN client successfully established an active connection to the corporate VPN gateway.
 
 ### 5. Verified Resolution
 
-The VPN client displayed an active connection to the corporate VPN gateway.
+The VPN connection was verified as active and was routing traffic through the corporate network.
 
 - **Status:** Connected
 - **Protocol:** IKEv2/IPSec
@@ -51,7 +58,7 @@ The user confirmed that connectivity had been restored.
 
 ## Resolution
 
-VPN connectivity was successfully restored and the user was able to resume access to corporate resources.
+VPN connectivity was successfully restored, and the user was able to resume access to corporate resources.
 
 ## Skills Demonstrated
 
