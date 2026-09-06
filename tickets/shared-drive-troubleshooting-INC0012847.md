@@ -18,6 +18,8 @@ I assigned the ticket to myself and connected to Sarah's workstation through the
 
 This allowed me to troubleshoot the issue directly.
 
+![Remote Support Connection](../images/INC0012847_02_Remote_Support_Connection.png)
+
 ### 2. Checked VPN Connectivity
 
 Because Sarah was working remotely and the shared drive was a corporate network resource, I checked the workstation's VPN connection.
@@ -26,15 +28,13 @@ The VPN was disconnected.
 
 I reconnected the workstation to the corporate VPN.
 
-![VPN Connected](../images/INC0012847_02_VPN_Connected.png)
-
 ### 3. Verified the Marketing Network Drive
 
 After reconnecting the VPN, I checked the mapped drives in File Explorer.
 
 The **D: Marketing Department Drive** was available again.
 
-![Marketing Network Drive](../images/INC0012847_03_Marketing_Network_Drive.png)
+![Marketing Network Drive](../images/INC0012847_03_Map_Network_Drive.png)
 
 ### 4. Confirmed Resolution With the User
 
