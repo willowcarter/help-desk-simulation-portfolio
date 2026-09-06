@@ -65,16 +65,8 @@ The important part here was verifying the **actual user outcome**, not just stop
 - Resolution verification
 - Incident documentation
 
-## Security Consideration
-
-The issue involved access to a corporate network resource. I used the user's existing authorized workstation access and did not need to request or handle the user's password.
-
-In a production environment, credentials should not be requested or shared through company chat or other informal communication channels.
-
-**Security takeaway:** Solve the access problem without creating a credential problem.
-
 ## Outcome
 
-The user's access to the Marketing shared drive was restored, and Sarah confirmed that she could get back to her files.
+The user's access to the Marketing shared drive was restored, and Sarah confirmed she could access her files again.
 
 The technical fix mattered, but so did confirming that the person on the other end could actually get back to work.
