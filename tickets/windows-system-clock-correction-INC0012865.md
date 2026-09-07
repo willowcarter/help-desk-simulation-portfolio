@@ -11,7 +11,7 @@ The user reported that the clock on his workstation was incorrect. The computer 
 
 The incorrect time zone was causing Teams meetings to appear at the wrong times.
 
-![Original incident ticket](INC0012865-01-clock-incorrect-ticket.png)
+![Original incident ticket](images/INC0012865-01-clock-incorrect-ticket.png)
 
 ## Root Cause & Diagnosis
 
@@ -23,13 +23,13 @@ The user had already restarted the workstation without resolving the issue. I co
 
 1. Connected to the user's workstation using remote support.
 
-![Remote support session](INC0012865-02-remote-support.png)
+![Remote support session](images/INC0012865-02-remote-support.png)
 
 2. Opened **Windows Settings → Time & Language → Date & Time**.
 3. Changed the workstation's time zone from Eastern Time to **Central Time (UTC-06:00)**.
 4. Resynchronized the system clock with the configured Internet time server to correct the approximately two-minute time difference.
 
-![Clock synchronized successfully](INC0012865-03-sync-clock-complete.png)
+![Clock synchronized successfully](images/INC0012865-03-sync-clock-complete.png)
 
 5. Asked the user to verify the corrected time and meeting schedule from his workstation.
 
@@ -37,7 +37,7 @@ The user had already restarted the workstation without resolving the issue. I co
 
 The workstation successfully synchronized its clock after the time zone was corrected. The user confirmed that the clock was displaying the correct time and that the issue was resolved.
 
-![User confirmation](INC0012865-04-communication-and-confirmation.png)
+![User confirmation](images/INC0012865-04-communication-and-confirmation.png)
 
 ## Key Lessons Learned
 
